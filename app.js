@@ -21,6 +21,7 @@ function init(){
             }        
             data_table.push(data_single);
         });
+        console.log(columns)
         $('#table').DataTable( {
             data: data_table,
             columns: columns
